@@ -1,0 +1,19 @@
+{
+  "name": "flashcards-backend",
+  "version": "1.0.0",
+  "description": "Backend for web flashcards application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aneta Porębska",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^3.5.1",
+    "cors": "^2.8.5",
+    "csv-parse": "^4.16.3",
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "npm": "^7.23.0"
+  }
+}
