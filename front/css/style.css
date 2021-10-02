@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 :root {
   color: lightblue;
@@ -10,7 +10,7 @@
     margin: 1rem;
     padding: 0;
     font-size: 130%;
-    font-family: 'Concert One', cursive;
+    font-family: 'PT Sans', sans-serif;
 }
 
   
@@ -81,7 +81,6 @@ h2 {
       box-shadow: none;
       transform: none;
   }
-
 
 .end-results{
     font-size: 50%

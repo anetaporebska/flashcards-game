@@ -16,6 +16,9 @@ let daysLevel = {
     2: 10,
     3: 25,
     4: 45,
+    5: 60,
+    6: 100,
+    7: 150
 }
 
 let questions = []
@@ -76,6 +79,7 @@ function decrementLevel() {
     if (currentQuestion.level > 0) {
         currentQuestion.level--
     }
+    currentQuestion.date = Date.now();
 }
 
 
