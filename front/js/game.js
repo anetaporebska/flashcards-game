@@ -65,7 +65,7 @@ async function finishGame() {
 
 function incrementScore(num){
     score += (num * multiplier)
-    scoreText.innerText = score
+    scoreText.innerText = Math.floor(score)
 }
 
 function incrementDateAndLevel() {

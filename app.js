@@ -1,14 +1,14 @@
 const express = require('express');
 const Datastore = require('nedb');
-const QUESTIONS_PER_ROUND = 25;
-const STATS_LENGTH = 20;
+const QUESTIONS_PER_ROUND = 100;
+const STATS_LENGTH = 30;
 
 const app = express();
 app.listen(3000)
 app.use(express.static('front'))
 app.use(express.json({limit: '100kb'}))
 
-const database = new Datastore('./app/data/data.db');
+const database = new Datastore('./app/data/java.db');
 database.loadDatabase();
 
 const statistics = new Datastore('statistics.db');

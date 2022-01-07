@@ -11,7 +11,6 @@ async function getData() {
 
 async function displayCharts() {
     await getData()
-
     stats.sort(function (a, b) { return new Date(a.date) - new Date(b.date) });
 
     stats.forEach(entry => {
